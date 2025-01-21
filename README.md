@@ -1,6 +1,6 @@
 #### Problem Statement:
 
-The purpose of this project is to analyze the characteristics of customers who are most likely to default on their credit card payments. By identifying key factors contributing to defaults, financial institutions can implement targeted strategies to mitigate risks and improve credit management. The data for this analysis is sourced from the UCI repository.
+The purpose of this project is to **analyze the characteristics of customers who are most likely to default on their credit card payments**. By identifying key factors contributing to defaults, financial institutions can implement targeted strategies to mitigate risks and improve credit management. The data for this analysis is sourced from the UCI repository.
 
 #### Code and Resources Used:
 - **Jupyter Notebook**
@@ -67,13 +67,13 @@ The 23 explanatory variables are:
 #### Conclusion:
 Based on the analysis performed in the previous sections, we can conclude that:
 
-- The payment status variables (delays in payment) exhibit the strongest correlation with the target variable, especially PAY_0. These are likely more predictive of default status.
-- Clinets who make larger payments are slightly less likely to default.
-- While Sex, Education, Marital Status, and Age had week correlation with the target variable we can see that: 
--  A male customer is more likely to default than a female customer.
--  People with a relationship status of other are more likely to default than married or single people.
--  A customer whose highest educational qualification is a high-school diploma is more likely to default than a customer who has gone to graduate school or university.
--  A customer who is in (60-64) age group has a higher probability of defaulting on payments than any other age group.
+- The **payment status variables (delays in payment) exhibit the strongest correlation with the target variable, especially PAY_0**. These are likely more predictive of default status.
+- Clinets who **make larger payments are slightly less likely to default**.
+-  While Sex, Education, Marital Status, and Age had week correlation with the target variable we can see that: 
+-  **A male customer** is more likely to default than a female customer.
+-  People with a **relationship status of other** are more likely to default than married or single people.
+-  A customer whose **highest educational qualification is a high-school diploma** is more likely to default than a customer who has gone to graduate school or university.
+-  A customer who is in **(60-64) age group** has a higher probability of defaulting on payments than any other age group.
 
 This analysis highlights the key characteristics influencing default risk and emphasizes the importance of payment history and demographic factors in predicting defaults.
 
